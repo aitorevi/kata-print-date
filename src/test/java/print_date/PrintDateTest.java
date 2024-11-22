@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class PrintDateTest {
   @Test
   void printDate() {
-    PrintDate printDate = new PrintDate(new Calendar(), new Printer());
+    PrintDate printDate = new PrintDate(new SystemCalendar(), new SystemPrinter());
 
     printDate.printCurrentDate();
 
